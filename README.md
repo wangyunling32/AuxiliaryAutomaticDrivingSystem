@@ -7,5 +7,14 @@
 成果展示
 首页：									
 
-<img src="https://github.com/wangyunling32/AuxiliaryAutomaticDrivingSystem/blob/master/img-folder/homePage.png" width="400" height="400"/>
-![Image text](https://github.com/wangyunling32/AuxiliaryAutomaticDrivingSystem/blob/master/img-folder/homePage.png)
+<img src="https://github.com/wangyunling32/AuxiliaryAutomaticDrivingSystem/blob/master/img-folder/homePage.png" width="300" height="500"/>
+
+摄像头拍摄画面：
+
+<img src="https://github.com/wangyunling32/AuxiliaryAutomaticDrivingSystem/blob/master/img-folder/camera.png" width="300" height="300"/>
+
+识别结果：
+
+<img src="https://github.com/wangyunling32/AuxiliaryAutomaticDrivingSystem/blob/master/img-folder/result.png" width="300" height="300"/>
+
+
