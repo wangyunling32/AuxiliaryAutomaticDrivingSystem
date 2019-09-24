@@ -6,7 +6,7 @@
 
 成果展示
 
-首页：									
+首页(驾驶员通过点击首页“现场应用”按钮，进入实时场景模块，系统就会自动捕获现场路况，并对图像进行采集;点击主页面的“现场模拟”按钮，进入模拟模块)：									
 
 <img src="https://github.com/wangyunling32/AuxiliaryAutomaticDrivingSystem/blob/master/img-folder/homePage.png" width="300" height="500"/>
 
