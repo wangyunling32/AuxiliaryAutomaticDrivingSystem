@@ -10,12 +10,12 @@
 
 <img src="https://github.com/wangyunling32/AuxiliaryAutomaticDrivingSystem/blob/master/img-folder/homePage.png" width="300" height="500"/>
 
-摄像头拍摄画面：
+摄像头拍摄画面(通过实时捕捉小程序界面显示的摄像头拍摄画面完成图像采集;对采集的图像进行保存并存储到服务器，覆盖之前保存的图像)：
 
 <img src="https://github.com/wangyunling32/AuxiliaryAutomaticDrivingSystem/blob/master/img-folder/camera.png" width="300" height="300"/>
 
-识别结果：
+识别结果(后端通过使用opencv对图像的处理办法对存储的图像进行预处理;通过使用相关技术编写车道线检测、车辆检测及交通信号灯识别等算法，对预处理的图像进行分析，并保存分析结果返回前端;前端对分析结果进行显示并用语音和文字提示驾驶员)：
 
 <img src="https://github.com/wangyunling32/AuxiliaryAutomaticDrivingSystem/blob/master/img-folder/result.png" width="700" height="400"/>
 
-
+该系统的核心是对图像的处理和分析，为了响应前端实时发送的路况分析结果请求，后端就必须快速的对保存的图像进行处理和分析，所以在处理图像时采用多进程同时执行的方法，减少图像处理和分析的时间，迅速的将分析结果反馈给前端，尽量与路况实时的内容保持同步。
